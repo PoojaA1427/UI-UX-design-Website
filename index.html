@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/0633accb2d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div clas="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#other">Other Projects</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p> 
+            <h1>Hi, I'm <span>Pooja A</span><br>from Chennai</h1>
+        </div>
+    </div>
+</div>
+<!-------about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="images/use.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>As a recent engineering graduate and self-taught UI/UX & Graphic Designer, 
+               I specialize in product wireframing, prototyping, interaction design, and 
+               responsive design with a keen eye for detail. My expertise includes mobile and web UI design, 
+               creating interactive websites using HTML, CSS, and JavaScript, and designing AR/VR games with C#. 
+               I also bring strong skills in advertising, branding, and product manipulation, bridging the gap 
+               between design and technology to deliver innovative solutions.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('certification')">Certification</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces.</li>
+                <li><span>Web Development</span><br>Web app Development.</li>
+                <li><span>Graphic Design</span><br>Product Manipulation & Advertising.</li>
+                <li><span>Application Development</span><br>Building AR/VR apps.</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>Program Analyst Trainee[2024]</span><br>Cognizant technology solutions</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>Bio-Medical Engineering[2019-2023]</span><br>Saveetha Engineering College</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="certification">
+            <ul>
+                <li><span>SQL-(Advance) [2024]</span><br>HackerRANK</li>
+                <li><span>C# [2024]</span><br>HackerRANK</li>
+                <li><span>Artifical Intelligence</span><br>NPTEL</li>
+                <li><span>Virtual Reality/Augumented Reality Development</span><br>TechXR innovations</li>
+            </ul>
+        </div>
+     </div>
+ </div>
+</div>
+</div>
+
+<!------portfolio------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/apple.jpg">
+                <div class="layer">
+                    <h3>Product Manipulation</h3>
+                    <p>Apple Bliss: Nature's Freshness in Every Drop..!</p>
+                    <a href="https://www.canva.com/design/DAGMJaRCB9Y/WTzU37l3DZG4wjoliCFozQ/view?utm_content=DAGMJaRCB9Y&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/VR.jpg">
+                <div class="layer">
+                    <h3>Product Manipulation</h3>
+                    <p>Transform Your Living Room Into a Thrilling Jungle With Gear VR</p>
+                    <a href="https://www.canva.com/design/DAGMzUMl9EQ/ujjdbFkXarJvZyKv3U9Y7Q/view?utm_content=DAGMzUMl9EQ&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Travel.jpg">
+                <div class="layer">
+                    <h3>Advertising Poster</h3>
+                    <p>Escape to the wild : Find Your Peace In Nature</p>
+                    <a href="https://www.canva.com/design/DAGNvwUc8_I/D36iIuTVaiAJ-J9mKyUzUQ/view?utm_content=DAGNvwUc8_I&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/orange.jpg">
+                <div class="layer">
+                    <h3>Product Manipulation</h3>
+                    <p>Experience the Burst of Freshness with Every Sip of Orange Juice!</p>
+                    <a href="https://www.canva.com/design/DAGMzlznfZE/YMSEzw4SPDxOUrvPcFUiPA/view?utm_content=DAGMzlznfZE&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/chilly.jpg">
+                <div class="layer">
+                    <h3>Product Manipulation</h3>
+                    <p>Ignite Your Taste Buds: The Ultimate Hot Sauce Experience</p>
+                    <a href="https://www.canva.com/design/DAGM3dqezhI/dHCEg_QsuwYvwNlQn9yWag/view?utm_content=DAGM3dqezhI&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+        </div>
+        <div class="work">
+            <img src="images/isolate.jpg">
+            <div class="layer">
+                <h3>Travel & Tourism Poster</h3>
+                <p>Escape the Noise, Find Your Peace</p>
+                <a href="https://www.canva.com/design/DAGNzdCTaE0/Il8CNCfDQJPyktM60IpXWg/view?utm_content=DAGNzdCTaE0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/insta.jpg">
+            <div class="layer">
+                <h3>Social Media Post</h3>
+                <p> Explore with Trekwise</p>
+                <a href="https://www.canva.com/design/DAGNzb7HdKw/nCzY6tBLilNMcl74rvbgVQ/view?utm_content=DAGNzb7HdKw&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/cafe.jpg">
+            <div class="layer">
+                <h3>Social Media Poster</h3>
+                <p>Golden Moments: Nescafe Gold Blend's Rich Aroma</p>
+                <a href="https://www.canva.com/design/DAGM3jD0EBk/Jj4DoHRrJB8IGlfgf7t9TQ/view?utm_content=DAGM3jD0EBk&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/food delivery.jpg">
+            <div class="layer">
+                <h3>Mobile App UI Design</h3>
+                <p>QuickBite: Savor Every Click</p>
+                <a href="https://www.canva.com/design/DAGM9xxY8R8/Q__nr0KH4EEeNStkcXwNMA/view?utm_content=DAGM9xxY8R8&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/Jimmicho.jpg">
+            <div class="layer">
+                <h3>UI & UX Design for Website</h3>
+                <p>Glamour Steps: Luxury Footwear Redefined</p>
+                <a href="https://www.canva.com/design/DAGM94HaC-c/Bl3P7yst7G76OkW8DH-Cxw/view?utm_content=DAGM94HaC-c&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/bella.jpg">
+            <div class="layer">
+                <h3>UI/UX Design for a Cosmetic Website</h3>
+                <p>Bella Glam, a natural cosmetic line, is visually represented with earthy colors in Figma to emphasize its all-natural ingredients.</p>
+                <a href="https://www.canva.com/design/DAGM9phoarw/rMDIP4GX-S1k_vBwGLk40g/view?utm_content=DAGM9phoarw&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        
+</div>
+<!-----------------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> poojaanbuselvi27@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9360466330</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-figma"></i></a>
+                    <a href=""><i class="fa-brands fa-square-behance"></i></a>
+                    <a href=""><i class="fa-brands fa-unity"></i></a>
+                </div>
+                <a href="images/pooja rsm.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    
+</div>
+
+
+<!----------projects-->
+<div id="other">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>C# Game Development</h2>
+                <p>Developing a coin collecting game utilizing Unity software with C# script.</p>
+                <a href="https://youtu.be/-0JZQZp_ua4?si=i-d7ZGF4NYYH-y9I" target="_blank">Learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Augumented Reality App</h2>
+                <p>Creating 3D model of human organs with overlaying the scence in the device camera lens with virtual content.</p>
+                <a href="https://youtu.be/ntbeeEtdloo?si=apsO06-6bkLZM_zW" target="_blank">Learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-vr-cardboard"></i>
+                <h2>Virtual Reality App</h2>
+                <p>Creafting captivating museum tours, seamlessly merging technology and art to deliver immersive experience.</p>
+                <a href="https://youtu.be/Qxy13zUkOsI?si=XQ4tEF5Jie8kO7JD" target="_blank">Learn more..</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-snapchat"></i>
+                <h2>AR Gaming Experience</h2>
+                <p>Crafting Unity3D-powered Augumented Reality Game with intuitive UI controls, offering kids an immersive gaming experience.</p>
+                <a href="https://youtu.be/jtB-zNcEIkQ?si=W8dE0ZwZ29_I7AKW" target="_blank">Learn more..</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright. made with <i class="fa-solid fa-heart"></i> by Pooja A</p>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWfxnb5BgOUAhBIyDvrN_9AI9_9QTSoNPJZ5f4SE-nyARDDBllIAzJcx3hodL8XI0c/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
